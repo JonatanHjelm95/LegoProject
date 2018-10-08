@@ -1,0 +1,68 @@
+body {
+}
+
+.topnav {
+    background-color: #9eb3d3;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline-block;
+
+}
+.topnav #user{
+    float: right;
+    overflow: hidden;
+    padding-right: 20px;
+    padding-top: 7px;
+    display: inline-block;
+
+}
+.topnav #login{
+    float: right;
+
+    display: inline-block;
+}
+
+.topnav #cartIcon{
+    float: right;
+    display: inline-block;
+}
+
+
+.topnav #header{
+    float: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+.topnav a.active {
+    background-color: #647fa8;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:last-child {
+    background-color: #a9a9a9;
+}
+
+#shoppingCart {
+    width: 100%
+}
+
+﻿
