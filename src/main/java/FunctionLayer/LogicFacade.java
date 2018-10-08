@@ -3,8 +3,7 @@ package FunctionLayer;
 import DBAccess.UserMapper;
 
 /**
- * The purpose of LogicFacade is to...
- * @author kasper
+ * @author jonab
  */
 public class LogicFacade {
 

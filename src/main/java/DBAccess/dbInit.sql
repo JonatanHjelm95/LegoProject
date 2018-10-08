@@ -13,10 +13,10 @@ CREATE TABLE `user` (
   UNIQUE KEY `email_UNIQUE` (`email`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 
-LOCK TABLES `user` WRITE;
-INSERT INTO `user` VALUES 
-(1,'jens@somewhere.com','jensen','customer'),
-(2,'ken@somewhere.com','kensen','customer'),
-(3,'robin@somewhere.com','batman','employee');
-UNLOCK TABLES;
+-- LOCK TABLES `user` WRITE;
+-- INSERT INTO `user` VALUES 
+-- (1,'jens@somewhere.com','jensen','customer'),
+-- (2,'ken@somewhere.com','kensen','customer'),
+-- (3,'robin@somewhere.com','batman','employee');
+-- UNLOCK TABLES;
 

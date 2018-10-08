@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>kasper.osterbye</groupId>
-    <artifactId>LogInSample</artifactId>
+    <artifactId>LegoProject</artifactId>
     <version>0.1-Test</version>
     <packaging>war</packaging>
 
-    <name>LogInSample</name>
+    <name>LegoProject</name>
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
