@@ -33,9 +33,9 @@ public class FrontController extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         HTMLGenerator html = new HTMLGenerator();
+        request.setAttribute("topMenu", html.generateMenu(request));
         try {
             Command action = Command.from(request);
-            request.setAttribute("topMenu", html.generateMenu(request));
             String view = action.execute(request, response);
             request.getRequestDispatcher("/WEB-INF/" + view + ".jsp").forward(request, response);
         } catch (LoginSampleException ex) {

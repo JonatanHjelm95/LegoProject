@@ -16,7 +16,7 @@ public class HTMLGenerator {
     String html = "<div class=\"topnav\">\n"
             + "            <a id=\"login\" href=\"?origin=signup\">sign up</a>\n"
             + "            <a id=\"login\" href=\"?origin=login\">Login</a>\n"
-            + "            <h1 id=\"header\" >Lego house</h1>\n"
+            + "            <h1 id=\"header\" ></h1>\n"
             + "            <a id=\"home\" class=\"active\" href=\"?origin=index\">Home</a>\n"
             + "            <a id=\"products\" href=\"?origin=products\">Products</a>\n"
             + "        </div>";
@@ -30,7 +30,7 @@ public class HTMLGenerator {
                 menuHTML = "<div class=\"topnav\">\n"
                         + "<a id=\"login\" href=\"?origin=logout\">logout</a>"
                         + "<h4 id=\"user\" > Logged in as: " + user.getEmail() + "</h4>\n"
-                        + "<h1 id=\"header\" >Lego house</h1>\n"
+                        + "<h1 id=\"header\" ></h1>\n"
                         + "<a id=\"home\" class=\"active\" href=\"?origin=index\">Home</a>\n"
                         + "<a id=\"products\" href=\"?origin=products\">Products</a>\n"
                         + "</div>";
@@ -41,8 +41,8 @@ public class HTMLGenerator {
         }
         menuHTML = "<div class=\"topnav\">\n"
                 + "            <a id=\"login\" href=\"?origin=signup\">sign up</a>\n"
-                + "            <a id=\"login\" href=\"?origin=login\">Login</a>\n"
-                + "            <h1 id=\"header\" >Lego house</h1>\n"
+                + "            <a id=\"login\" href=\"registerpage.jsp\">Login</a>\n"
+                + "            <h1 id=\"header\" ></h1>\n"
                 + "            <a id=\"home\" class=\"active\" href=\"?origin=index\">Home</a>\n"
                 + "            <a id=\"products\" href=\"?origin=products\">Products</a>\n"
                 + "        </div>";
